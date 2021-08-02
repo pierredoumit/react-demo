@@ -1,0 +1,10 @@
+.Progress__Step__Entry{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+.Progress__Step__Entry label{
+    flex:1;
+    margin-left: 10px;
+    font-size: 13px;
+}

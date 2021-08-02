@@ -1,0 +1,9 @@
+.Progress span{
+    font-weight: bold;
+}
+
+.Progress__Steps{
+    display: flex;
+    flex-direction: column;
+}
+

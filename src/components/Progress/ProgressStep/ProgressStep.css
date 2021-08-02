@@ -1,0 +1,43 @@
+.Progress__Step{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Progress__Step__Head{
+    display: flex;
+    justify-content: center;
+}
+
+.Progress__Step__Head h3{
+    flex:1;
+}
+
+.MuiSvgIcon-root{
+    stroke: black;
+    stroke-width: 4;
+}
+
+.Progress__Step__Head span.num{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.Progress__Step__List{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Progress__Step__List>div:last-child{
+    margin-bottom: 0px;
+}
